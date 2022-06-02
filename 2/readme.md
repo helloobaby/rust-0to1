@@ -6,9 +6,15 @@ root@VM-4-17-ubuntu:~/rust# cargo new _2
      Created binary (application) `_2` package
      
      
-### cargo很方便
+### cargo比cmake方便太多了
 1.不用来回切换目录,想运行的话cargo run就可以运行可执行程序(不用cd和./了)
-2.发布只需要cargo build --release
+2.发布模式只需要cargo build --release
+
+
+
+cargo new project_name
+
+
 
 
 参考
