@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+#rust标准库还没实现随机,这个就像类似c++ boost地位的东西吧
+#0.8.3 表示大于或等于0.8.3 小于0.9.0的版本
+
+rand = "0.8.3" 
