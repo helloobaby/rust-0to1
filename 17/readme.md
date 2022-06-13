@@ -8,3 +8,5 @@ cargo login [private_key](https://crates.io/settings/tokens)
 
 3.增加license 
 .toml中package的license字段
+
+弄完应该还会报错,rust的报错很人性化的，还有提示，照着做就行了
