@@ -20,5 +20,6 @@ fn main() {
     println!("{:?}",vec2);
     test(&vec2);
 
+    
     println!("{:?}",vec2); //Ⅱ
 }
