@@ -1,5 +1,5 @@
 mod lib;
 
 fn main() {
-    println!("{}",lib::add(1));
+    println!("{}",lib::test::add(1));
 }
