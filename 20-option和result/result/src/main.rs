@@ -23,7 +23,15 @@ fn test(param : k) -> std::result::Result<u32,std::string::String>
 
 }
 
-fn main() {
+fn test2() -> std::io::Result<()>{
+
+
+    Ok(())
+}
+
+
+
+fn main()  {
     let a = k{age:3};
     let ret = test(a);
 
@@ -36,4 +44,6 @@ fn main() {
     {
         println!("123");
     }
+
+    test2();
 }
