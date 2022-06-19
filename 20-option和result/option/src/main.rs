@@ -30,5 +30,6 @@ fn main() {
     let ret = test(t);
     
     //如果option为空的话，unwrap会panic，这个和c++是一样的
+    //还有一点,Unwrap会获得所有权，也就是后面用不了了。需要as_ref().unwrap
     println!("{}",ret.unwrap().age);
 }
